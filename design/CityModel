@@ -1,0 +1,4 @@
+name:string
+country:string
+
+rails generate scaffold City name:string coutry:string

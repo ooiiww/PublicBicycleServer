@@ -1,0 +1,16 @@
+Station
+
+name:string
+address:string
+latitude:float
+longitude:float
+space:integer
+idle:integer
+openTime:time
+closeTime:time
+cityId:integer
+localId:string
+manual:boolean
+functioning:boolean
+
+rails generate scaffold Station name:string address:string latitude:float longitude:float space:integer idle:integer openTime:time closeTime:time cityId:integer localId:string manual:boolean functioning:boolean
